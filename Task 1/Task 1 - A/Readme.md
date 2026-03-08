@@ -105,6 +105,45 @@ Write functions for:
 * Prime number checker
 * List comprehension
 
+```python
+# Exercise 1
+# Write a function is_prime(n) that returns True if n is prime, otherwise False.
+
+def is_prime(n):
+    pass
+
+
+# Exercise 2
+# Using list comprehension, create a function that returns
+# the squares of numbers from 1 to n.
+
+def squares_upto_n(n):
+    pass
+
+
+# Exercise 3
+# Using list comprehension, return all even numbers from a list.
+
+def get_even_numbers(nums):
+    pass
+
+
+# Exercise 4
+# Using your is_prime function, return all prime numbers from 1 to n
+# using list comprehension.
+
+def primes_upto_n(n):
+    pass
+
+
+# Exercise 5
+# Given a list of strings, return a new list with all words converted to uppercase
+# using list comprehension.
+
+def to_uppercase(words):
+    pass
+ ```
+
 ### Create a file: basic_functions.py
 
 Write the following functions:
