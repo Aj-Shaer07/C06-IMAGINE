@@ -1,6 +1,6 @@
 Git & GitHub
 Fork :
-    -> Creating your own copy of a repositoryon GitHub
+    -> Creating your own copy of a repository on GitHub
     -> It copies the whole project to your GitHub account
     -> This is done so that u can make changes in the project without affecting the original project
 
