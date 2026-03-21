@@ -24,3 +24,4 @@
 - Make sure to understand what the code does and explore alternate approaches that could have been taken. (VERY IMPORTANT)
 - Keep your notebook clean and structured by using markdown sections
 - you have to give small write up in the [readme](README.md)
+
