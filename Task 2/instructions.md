@@ -24,3 +24,11 @@
 - Make sure to understand what the code does and explore alternate approaches that could have been taken. (VERY IMPORTANT)
 - Keep your notebook clean and structured by using markdown sections
 - you have to give small write up in the [readme](README.md)
+
+# Important:
+ - Please use 6.0.1 version for the plotly as the newer versions have some header issue that causes Pylance to cause import errors incase any such error pop up
+ - Please dog
+   ```bash
+   pip install plotly==6.0.1
+   ```
+   while doing pip install

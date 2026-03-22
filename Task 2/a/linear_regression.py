@@ -1,3 +1,5 @@
+#LINEAR REGRESSION USING SKLEARN
+
 import math
 import numpy as np
 import pandas as pd
@@ -19,6 +21,7 @@ X=scaler.fit_transform(X_train)
 
 import numpy as np
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 model = LinearRegression()
 y=train_data.iloc[:,1].values
@@ -33,18 +36,14 @@ X=np.array(x_test)
 X=X.reshape(-1,1)
 X_test= scaler.transform(X)
 
-predictions = model.predict(X_test)
+y_pred = model.predict(X_test)
 
-mse=np.mean((y_test-predictions)**2)
-mae=np.mean(np.abs(y_test-predictions))
-rmse=np.sqrt(mse)
-ssr=np.sum((y_test-predictions)**2)
-sst=np.sum((y_test-np.mean(y_test))**2)
-r2=1-(ssr/sst)
+mse = mean_squared_error(y_test, y_pred)
+mae = mean_absolute_error(y_test, y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(y_test, y_pred)
 
 print("Mean Squared Error:",mse)
 print("Mean Absolute Error:",mae)
 print("Root Mean Squared error:",rmse)
 print("R-Squared:",r2)
-
-
