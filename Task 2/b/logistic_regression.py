@@ -25,7 +25,7 @@ cor_target = abs(corr["diagnosis"])
 relevant_features = cor_target[cor_target > 0.2]                 #makes a list of features which are highly correlated
 names =  relevant_features.index.tolist()
 names.remove('diagnosis')
-pprint.pprint(names)
+print(names)
 
 X = df[names].values
 y = df['diagnosis'].values                                       #converts datafram into numpy array
