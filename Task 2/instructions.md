@@ -27,7 +27,7 @@
 
 # Important:
  - Please use 6.0.1 version for the plotly as the newer versions have some header issue that causes Pylance to cause import errors incase any such error pop up
- - Please dog
+ - Please do
    ```bash
    pip install plotly==6.0.1
    ```

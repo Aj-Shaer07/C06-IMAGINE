@@ -19,5 +19,5 @@
 - Minimizes error using: cross entropy instead of MSE
 - Evaluation: Accuracy, Precision, Recall, F1-score
 - Used on breast cancer datset here
+Please fill this file with what you understood
 
-	​
