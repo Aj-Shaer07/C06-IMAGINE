@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Linear Regression 
 
 - Predicts a continuous value (numbers)
@@ -21,3 +22,8 @@
 - Used on breast cancer datset here
 Please fill this file with what you understood
 
+=======
+Please fill this file with what you understood
+
+Mandatory
+>>>>>>> 3807d9a27ae683b84761b9620d49f43ffdce0420
