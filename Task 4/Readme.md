@@ -15,3 +15,6 @@ https://youtu.be/qJeaCHQ1k2w?si=PTLPrI_EwEbdySJ2
 final summary:
 
 https://youtu.be/xXgQAnMNBhY?si=8T8Ig-ITLIxx0y8j
+
+optional assignment : 
+Linear reg.pdf , you dont have to submit it 
