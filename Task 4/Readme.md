@@ -18,3 +18,9 @@ https://youtu.be/xXgQAnMNBhY?si=8T8Ig-ITLIxx0y8j
 
 optional assignment : 
 Linear reg.pdf , you dont have to submit it 
+
+
+autoencoder hands on notebook: 
+
+learn thoroughly 
+https://www.kaggle.com/code/pawelkauf/autoencoders-simplified-a-step-by-step-guide/notebook
