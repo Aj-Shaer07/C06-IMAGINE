@@ -39,8 +39,4 @@ class Student:
         return f"Name: {self.name}, Average: {self.average():.2f}, Grade: {self.grade()}, School: {Student.school_name}"
 
 if __name__ == "__main__":
-    s1 = Student("Alice", [85, 90, 88])
-    s2 = Student("Bob", [60, 70, 65])
-
-    print(s1)
-    print(s2)
+    s1 = Student("Alice", [8
