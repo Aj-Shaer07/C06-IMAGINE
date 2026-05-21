@@ -9,49 +9,49 @@ In this we give: Input Data + Rules -> Output
 Instead of rules, computer learns the rules from data set
 
 #	What is a Dataset?
-•	It is a collection of data used to train and evaluate ml models (usually given as a table).
-•	Ex: Each row = data example, Each column = one variable
+- It is a collection of data used to train and evaluate ml models (usually given as a table).
+- Ex: Each row = data example, Each column = one variable
 
 #	Features vs label
-•	Features – Input variables used for prediction (ex: predict house price – size, bedrooms etc)
-•	Labels – Output we want to predict 
-•	Ex: For a particular size of the house and number of bedrooms it contains, the predicted price is the label
+- Features – Input variables used for prediction (ex: predict house price – size, bedrooms etc)
+- Labels – Output we want to predict 
+- Ex: For a particular size of the house and number of bedrooms it contains, the predicted price is the label
 
 #	Training Data vs Testing Data
 ML model must be evaluated on unseen data, so the data is split into :
-•	Training Data – used to train model 
-•	Testing data – sued to evaluate the model’s performance
-Ex- dataset-1000 rows, training-800, testing-200
+- Training Data – used to train model 
+- Testing data – sued to evaluate the model’s performance
+- Ex- dataset-1000 rows, training-800, testing-200
 
 #	Model as Function Approximation
-•	Model is a mathematical function ( y=f(x))
-•	x-input features, y-predicted output
+- Model is a mathematical function ( y=f(x))
+- x-input features, y-predicted output
 
 
 ## SUPERVISED LEARNING
-Model learns from labeled data.
+- Model learns from labeled data.
 
 #	Regression 
-•	Predicts continuous numerical values. (ex: house price, temperature, etc)
-•	Evaluated by mean squared error or mean absolute error
+- Predicts continuous numerical values. (ex: house price, temperature, etc)
+- Evaluated by mean squared error or mean absolute error
 
 #	Classification 
-•	Predicts categories or classes. (ex: spam detection, image classification, etc)
-•	Evaluated by accuracy, precision etc
+- Predicts categories or classes. (ex: spam detection, image classification, etc)
+- Evaluated by accuracy, precision etc
 
 # Real world applications of supervised learning
-•	Spam detection
-•	Credit card fraud detection
-•	House price prediction
-•	Medical diagnosis
+- Spam detection
+- Credit card fraud detection
+- House price prediction
+- Medical diagnosis
 
 #	Hypothesis
-•	It is the function the model uses to make predictions
-•	Different weights and biases are assigned which are changed accordingly to make the model better
-•	h(x) = w1x1 + w2x2 + b (x-inputs, w-weights, b-bias)
+- It is the function the model uses to make predictions
+- Different weights and biases are assigned which are changed accordingly to make the model better
+- h(x) = w1x1 + w2x2 + b (x-inputs, w-weights, b-bias)
 
 #	Prediction Error
-•	It is the difference between the actual value and predicted value
+- It is the difference between the actual value and predicted value
 
 #	Optimization
 - Finding the best model parameters, adjusting weights
