@@ -1,9 +1,0 @@
-streamlit>=1.49.0
-streamlit-drawable-canvas
-torch
-torchvision
-diffusers
-transformers
-accelerate
-pillow
-numpy
